@@ -1,6 +1,6 @@
 # Dockerfile used by out prow jobs.
 # The sole purpose of this image is to customize the command run.
-FROM python:3.6.5-slim
+FROM python:3.9.1-slim
 MAINTAINER kubeflow-team
 
 RUN pip install flask requests tensorflow
