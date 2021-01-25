@@ -1,4 +1,4 @@
-FROM golang:1.13.5 AS build-image
+FROM golang:1.15.7 AS build-image
 
 ADD . /go/src/github.com/kubeflow/tf-operator
 
