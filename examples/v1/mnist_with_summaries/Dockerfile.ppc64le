@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ibmcom/tensorflow-ppc64le:1.13.1
+FROM ibmcom/tensorflow-ppc64le:2.2.0
 
 ADD . /var/tf_mnist
 ENTRYPOINT ["python", "/var/tf_mnist/mnist_with_summaries.py"]
