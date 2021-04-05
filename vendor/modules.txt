@@ -8,10 +8,6 @@ github.com/PuerkitoBio/urlesc
 github.com/beorn7/perks/quantile
 # github.com/cespare/xxhash/v2 v2.1.1
 github.com/cespare/xxhash/v2
-# github.com/coreos/etcd v3.3.20+incompatible
-## explicit
-# github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f
-## explicit
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
 # github.com/emicklei/go-restful v2.9.5+incompatible
@@ -34,7 +30,6 @@ github.com/gogo/protobuf/sortkeys
 # github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef
 github.com/golang/groupcache/lru
 # github.com/golang/protobuf v1.3.2
-## explicit
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
@@ -55,8 +50,6 @@ github.com/google/uuid
 github.com/googleapis/gnostic/OpenAPIv2
 github.com/googleapis/gnostic/compiler
 github.com/googleapis/gnostic/extensions
-# github.com/grpc-ecosystem/grpc-gateway v1.5.0
-## explicit
 # github.com/hashicorp/golang-lru v0.5.1
 github.com/hashicorp/golang-lru
 github.com/hashicorp/golang-lru/simplelru
@@ -89,8 +82,6 @@ github.com/modern-go/reflect2
 # github.com/onrik/logrus v0.2.2-0.20181225141908-a09d5cdcdc62
 ## explicit
 github.com/onrik/logrus/filename
-# github.com/pkg/errors v0.9.1
-## explicit
 # github.com/prometheus/client_golang v1.5.1
 ## explicit
 github.com/prometheus/client_golang/prometheus
@@ -112,10 +103,6 @@ github.com/prometheus/procfs/internal/util
 github.com/sirupsen/logrus
 # github.com/spf13/pflag v1.0.5
 github.com/spf13/pflag
-# github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5
-## explicit
-# go.uber.org/atomic v1.4.0
-## explicit
 # golang.org/x/crypto v0.0.0-20200220183623-bac4c82f6975
 golang.org/x/crypto/ssh/terminal
 # golang.org/x/mod v0.2.0
@@ -291,7 +278,7 @@ k8s.io/apimachinery/pkg/version
 k8s.io/apimachinery/pkg/watch
 k8s.io/apimachinery/third_party/forked/golang/json
 k8s.io/apimachinery/third_party/forked/golang/reflect
-# k8s.io/client-go v0.16.9 => k8s.io/client-go v0.16.9
+# k8s.io/client-go v0.20.5 => k8s.io/client-go v0.16.9
 ## explicit
 k8s.io/client-go/discovery
 k8s.io/client-go/discovery/fake
@@ -491,8 +478,6 @@ k8s.io/code-generator/cmd/set-gen
 k8s.io/code-generator/pkg/namer
 k8s.io/code-generator/pkg/util
 k8s.io/code-generator/third_party/forked/golang/reflect
-# k8s.io/component-base v0.18.2 => k8s.io/component-base v0.16.9
-## explicit
 # k8s.io/gengo v0.0.0-20190822140433-26a664648505
 k8s.io/gengo/args
 k8s.io/gengo/examples/deepcopy-gen/generators
